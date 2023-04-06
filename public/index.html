@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="container w-full mx-auto p-8 shadow-lg relative z-50">
+        <div class="flex items-center justify-between">
+            <div>
+                <img src="images/logo.svg" alt="">
+            </div>
+
+            <div class="hidden md:block md:space-x-8">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
+
+
+            <button class="hidden md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+
+            <div class="text-3xl cursor-pointer md:hidden">
+                <i class='bx bx-menu'></i>
+            </div>
+
+
+
+            <div class="hidden flex flex-col justify-center items-center absolute shadow-lg px-8 py-8 space-y-6 top-full left-0 w-full md:hidden">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section id="main">
+        <div class="container w-11/12 mx-auto flex flex-col-reverse items-center p-8 m-10 md:flex-row">
+            <!-- IMAGE -->
+            <div class="flex flex-col space-y-8 mb-10 text-center md:text-left">
+                <h3 class="text-5xl max-w-md text-gray-700">Next generation digital banking</h3>
+                <p class="max-w-sm text-gray-500">Take your financial life online. Your Easybank account will be a one-stop shop for spending, saving, budgeting, investing, and much more</p>
+               
+                <div>
+                    <button class="md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+                </div>
+                
+            </div>
+            <div class="-z-50 mb-10 w-1/2">
+                <!-- <img src="images/image-mockups.png" alt="" class="-z-50 mx-auto"> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="services p-8 bg-gray-300">
+        <div class="container mx-auto ">
+            <div>
+                <h3>Why choose Easybank?</h3>
+                <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+            </div>
+
+            <!-- FLEX CONTAINER -->
+            <div>
+                <div>
+                    <img src="images/icon-online.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
