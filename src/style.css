@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 body{
-    /* background: url(../public/images/bg-intro-mobile.svg) no-repeat; */
-    background-position: 90% 0%;
+    background: url(../public/images/bg-intro-desktop.svg) no-repeat;
+    background-position: 100% 2%;
     background-size: contain;
-}
+} */

@@ -27,13 +27,13 @@
 
             <button class="hidden md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
 
-            <div class="text-3xl cursor-pointer md:hidden">
+            <div class="text-3xl cursor-pointer md:hidden" id="menu">
                 <i class='bx bx-menu'></i>
             </div>
 
 
 
-            <div class="hidden flex flex-col justify-center items-center absolute shadow-lg px-8 py-8 space-y-6 top-full left-0 w-full md:hidden">
+            <div class="bg-white flex flex-col mt-4 justify-center items-center absolute shadow-lg px-8 py-8 space-y-6 top-full left-0 w-full md:hidden" id="nav">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
@@ -45,7 +45,7 @@
     </nav>
 
 
-    <section id="main">
+    <section id="main relative">
         <div class="relative container -mt-40 w-11/12 mx-auto flex flex-col-reverse items-center p-8 m-10 md:flex-row md:mt-32">
             <!-- IMAGE -->
             <div class="flex flex-col space-y-8 mb-10 text-center md:text-left">
@@ -57,6 +57,9 @@
                 </div>
                 
             </div>
+
+            <img src="images/bg-intro-mobile.svg" class="md:hidden absolute -z-50 right-0 top-60 w-fit" alt="">
+
             <div class="mb-10 md:w-1/2 md:absolute md:right-0">
                 <img src="images/image-mockups.png" alt="" class="-z-50 mx-auto">
             </div>
@@ -115,46 +118,46 @@
 
             <!-- FLEX CONTAINER -->
             <div class="grid gap-6 mt-14 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                <div class="bg-white">
-                    <img src="images/image-currency.jpg" alt="" class="w-full h-56 object-cover">
+                <div class="bg-white rounded-lg">
+                    <img src="images/image-currency.jpg" alt="" class="w-fullx h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
                     <div class="m-4 space-y-4">
                         <span class="text-sm text-gray-400">By Claire Robinson</span>
-                        <h4 class="text-xl">Receive money in any currency with no fees</h4>
+                        <h4 class="text-xl hover:text-green-700 cursor-pointer">Receive money in any currency with no fees</h4>
                         <p class="text-gray-400">The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single..</p>
                     </div>
                 </div>
 
-                <div class="bg-white">
-                    <img src="images/image-restaurant.jpg" alt=""  class="w-full h-56 object-cover">
+                <div class="bg-white rounded-lg">
+                    <img src="images/image-restaurant.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
                     <div class="m-4 space-y-4">
                         <span class="text-sm text-gray-400">By Wilson Hutton</span>
-                        <h4 class="text-xl">Treat yourself without worrying about money</h4>
+                        <h4 class="text-xl hover:text-green-700 cursor-pointer">Treat yourself without worrying about money</h4>
                         <p class="text-gray-400">Our simple budgeting feature allows you to seperate out your spending and set realistic limits each month. That means you...</p>
                     </div>
                 </div>
 
-                <div class="bg-white">
-                    <img src="images/image-plane.jpg" alt=""  class="w-full h-56 object-cover">
+                <div class="bg-white rounded-lg">
+                    <img src="images/image-plane.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
                     <div class="m-4 space-y-4">
                         <span class="text-sm text-gray-400">By Wilson Hutton</span>
-                        <h4 class="text-xl">Take your easy bank card wherever you go</h4>
+                        <h4 class="text-xl hover:text-green-700 cursor-pointer">Take your easy bank card wherever you go</h4>
                         <p class="text-gray-400">We want you ton enjoy your travels. This is why we don't charge any fees on purpose while you're abroad. We'll even show you...</p>
                     </div>
                 </div>
 
-                <div class="bg-white">
-                    <img src="images/image-confetti.jpg" alt=""  class="w-full h-56 object-cover">
+                <div class="bg-white rounded-lg">
+                    <img src="images/image-confetti.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
                     <div class="m-4 space-y-3">
                         <span class="text-sm text-gray-400">By Claire Robinson</span>
-                        <h4 class="text-xl">Our invite-only Beta accounts are now live</h4>
+                        <h4 class="text-xl hover:text-green-700 cursor-pointer">Our invite-only Beta accounts are now live</h4>
                         <p class="text-gray-400">After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site...</p>
                     </div>
                 </div>
@@ -164,8 +167,35 @@
 
 
     <footer id="footer" class="bg-blue-950">
-        <div class="container w-11/12 mx-auto p-8">
+        <div class="container w-11/12 mx-auto p-8 grid pt-14 md:grid-cols-2 lg:grid-cols-4 space-y-8 place-items-center">
+            <div class="flex flex-col space-y-8">
+                <img src="images/logo.svg" alt="" class="w-fit">
+                <div class="flex flex-row space-x-3">
+                    <img src="images/icon-facebook.svg" alt="">
+                    <img src="images/icon-youtube.svg" alt="">
+                    <img src="images/icon-twitter.svg" alt="">
+                    <img src="images/icon-pinterest.svg" alt="">
+                    <img src="images/icon-instagram.svg" alt="">
+                </div>
+            </div>
 
+            <div class="flex flex-col space-y-4 text-white items-center md:items-start">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+            </div>
+
+            <div class="flex flex-col space-y-4 text-white items-center md:items-start">
+                <a href="#">Careers</a>
+                <a href="#">Support</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="text-center md:text-left">
+                <button class="bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+
+                <span class="text-white text-sm pt-4 block">&copy;Easybank. All Rights Reserved</span>
+            </div>
         </div>
     </footer>
 </body>
