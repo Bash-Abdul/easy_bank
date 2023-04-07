@@ -10,3 +10,15 @@ body{
     background-position: 100% 2%;
     background-size: contain;
 } */
+
+.animation {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+}

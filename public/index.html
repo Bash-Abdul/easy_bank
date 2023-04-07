@@ -17,15 +17,15 @@
             </div>
 
             <div class="hidden md:block md:space-x-8">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Blog</a>
-                <a href="#">Careers</a>
+                <a href="#" class="hover:text-green-500">Home</a>
+                <a href="#" class="hover:text-green-500">About</a>
+                <a href="#" class="hover:text-green-500">Contact</a>
+                <a href="#" class="hover:text-green-500">Blog</a>
+                <a href="#" class="hover:text-green-500">Careers</a>
             </div>
 
 
-            <button class="hidden md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+            <button class="hidden md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white hover:opacity-60">Request Invite</button>
 
             <div class="text-3xl cursor-pointer md:hidden" id="menu">
                 <i class='bx bx-menu'></i>
@@ -46,14 +46,14 @@
 
 
     <section id="main relative">
-        <div class="relative container -mt-40 w-11/12 mx-auto flex flex-col-reverse items-center p-8 m-10 md:flex-row md:mt-32">
+        <div class="relative container -mt-40 w-11/12 mx-auto flex flex-col-reverse items-center p-8 m-10 md:flex-row md:mt-32 animation">
             <!-- IMAGE -->
             <div class="flex flex-col space-y-8 mb-10 text-center md:text-left">
                 <h3 class="text-5xl max-w-md text-gray-700">Next generation digital banking</h3>
                 <p class="max-w-sm text-gray-500">Take your financial life online. Your Easybank account will be a one-stop shop for spending, saving, budgeting, investing, and much more</p>
                
                 <div>
-                    <button class="md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+                    <button class="md:block bg-green-600 rounded-full py-2 px-4 text-sm text-white hover:opacity-60">Request Invite</button>
                 </div>
                 
             </div>
@@ -72,13 +72,13 @@
 
     <section class="services p-8 bg-gray-300">
         <div class="container mx-auto my-12 w-11/12">
-            <div class="flex flex-col space-y-6 mb-6 text-center lg:text-left">
+            <div class="flex flex-col space-y-6 mb-6 text-center lg:text-left animation">
                 <h3 class="text-5xl text-gray-700">Why choose Easybank?</h3>
                 <p class="max-w-sm mx-auto md:max-w-xl text-gray-600 text-lg lg:mx-0">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
             </div>
 
             <!-- FLEX CONTAINER -->
-            <div class="flex flex-col space-y-12 mt-20 md:flex-wrap lg:flex-nowrap lg:flex-row lg:space-y-0 lg:space-x-6">
+            <div class="flex flex-col space-y-12 mt-20 md:flex-wrap lg:flex-nowrap lg:flex-row lg:space-y-0 lg:space-x-6 animation">
                 <div class="flex flex-col items-center text-center space-y-6 lg:items-start lg:text-left">
                         <img src="images/icon-online.svg" alt="">
                         <h4 class="text-3xl text-gray-800">Online Banking</h4>
@@ -118,6 +118,7 @@
 
             <!-- FLEX CONTAINER -->
             <div class="grid gap-6 mt-14 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
                 <div class="bg-white rounded-lg">
                     <img src="images/image-currency.jpg" alt="" class="w-fullx h-56 object-cover rounded-md">
 
@@ -129,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg">
+                <div class="bg-white rounded-lg animation">
                     <img src="images/image-restaurant.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
@@ -140,7 +141,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg">
+                <div class="bg-white rounded-lg animation">
                     <img src="images/image-plane.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
@@ -151,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg">
+                <div class="bg-white rounded-lg animation">
                     <img src="images/image-confetti.jpg" alt=""  class="w-full h-56 object-cover rounded-md">
 
                     <!-- CONTENT -->
@@ -192,7 +193,7 @@
             </div>
 
             <div class="text-center md:text-left">
-                <button class="bg-green-600 rounded-full py-2 px-4 text-sm text-white">Request Invite</button>
+                <button class="bg-green-600 rounded-full py-2 px-4 text-sm text-white hover:opacity-60">Request Invite</button>
 
                 <span class="text-white text-sm pt-4 block">&copy;Easybank. All Rights Reserved</span>
             </div>
@@ -200,6 +201,8 @@
     </footer>
 
 
+
     <script src="script.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
