@@ -576,32 +576,12 @@ video {
   top: 0px;
 }
 
-.top-full{
-  top: 100%;
-}
-
-.top-10{
-  top: 2.5rem;
-}
-
-.top-5{
-  top: 1.25rem;
-}
-
-.top-2{
-  top: 0.5rem;
-}
-
-.top-40{
-  top: 10rem;
-}
-
-.top-6{
-  top: 1.5rem;
-}
-
 .top-60{
   top: 15rem;
+}
+
+.top-full{
+  top: 100%;
 }
 
 .-z-50{
@@ -656,6 +636,14 @@ video {
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .block{
