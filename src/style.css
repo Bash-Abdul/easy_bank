@@ -4,12 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-body{
-    background: url(../public/images/bg-intro-desktop.svg) no-repeat;
-    background-position: 100% 2%;
-    background-size: contain;
-} */
+
 
 .animation {
     opacity: 0;

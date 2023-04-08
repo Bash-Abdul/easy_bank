@@ -9,3 +9,4 @@ menu.addEventListener('click', () =>{
         nav.classList.add('hidden')
     }
 })
+
