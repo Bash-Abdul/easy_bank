@@ -918,6 +918,17 @@ body{
   transform: translateX(0);
 }
 
+#nav{
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+}
+
+@media (max-width:768px) {
+  .animation{
+    transform: translateX(-15px);
+  }
+}
+
 .hover\:text-green-500:hover{
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
@@ -955,6 +966,10 @@ body{
 
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:w-11\/12{
+    width: 91.666667%;
   }
 
   .md\:max-w-xl{

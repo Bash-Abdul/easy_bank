@@ -22,3 +22,14 @@ body{
     opacity: 1;
     transform: translateX(0);
 }
+
+#nav{
+    transition: all 1s ease-in;
+    transition-delay: 1s;
+}
+
+@media (max-width:768px) {
+    .animation{
+        transform: translateX(-15px);
+    }
+}
