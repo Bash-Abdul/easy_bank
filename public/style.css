@@ -610,8 +610,8 @@ video {
   margin-bottom: 3rem;
 }
 
-.-mt-40{
-  margin-top: -10rem;
+.-mt-36{
+  margin-top: -9rem;
 }
 
 .mb-10{
@@ -925,7 +925,7 @@ body{
 
 @media (max-width:768px) {
   .animation{
-    transform: translateX(-15px);
+    transform: translateX(-10px);
   }
 }
 
@@ -966,10 +966,6 @@ body{
 
   .md\:w-1\/2{
     width: 50%;
-  }
-
-  .md\:w-11\/12{
-    width: 91.666667%;
   }
 
   .md\:max-w-xl{

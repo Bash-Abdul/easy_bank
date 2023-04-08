@@ -30,6 +30,6 @@ body{
 
 @media (max-width:768px) {
     .animation{
-        transform: translateX(-15px);
+        transform: translateX(-10px);
     }
 }
