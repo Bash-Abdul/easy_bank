@@ -584,6 +584,14 @@ video {
   top: 100%;
 }
 
+.top-1{
+  top: 0.25rem;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
 .-z-50{
   z-index: -50;
 }
@@ -656,6 +664,10 @@ video {
 
 .h-56{
   height: 14rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-11\/12{
@@ -921,6 +933,11 @@ video {
     transform: translateX(-10px);
   }
 }
+
+/* #loader{
+    background: #fff url('https://media.giphy.com/media/VseXvvxwowwCc/giphy.gif') no-repeat center center;
+    background-size: 25%;
+} */
 
 .hover\:text-green-500:hover{
   --tw-text-opacity: 1;
